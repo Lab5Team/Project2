@@ -1,9 +1,10 @@
 body {
     font-family: 'Noto Sans', sans-serif;
+    background-color: #ec4f4f;
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #58f4ff;
     padding: 20px;
     text-align: left;
 }
@@ -31,7 +32,7 @@ header {
 }
 
 #nav-bar #highlight a {
-    color: #007BFF;
+    color: #eb2727;
 }
 
 #main {
