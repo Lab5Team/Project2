@@ -6,8 +6,7 @@ body {
 header {
     background-color: #58f4ff;
     padding: 20px;
-    text-align: left;
-}
+    text-align: center; 
 
 #nav-bar {
     display: flex;
@@ -15,6 +14,8 @@ header {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    border-bottom: 1px solid #333;
+    height: 60px; 
 }
 
 #nav-bar li {
@@ -28,15 +29,12 @@ header {
 
 #nav-bar a {
     text-decoration: none;
-    color: #333;
-}
-
-#nav-bar #highlight a {
-    color: #eb2727;
+    color: #007BFF;
 }
 
 #main {
     margin: 20px;
+    text-align: center;
 }
 
 #main h1, #main h2 {
@@ -47,10 +45,9 @@ header {
     color: #333;
 }
 
-/* Add this to your CSS */
 #main img {
-    width: 300px; /* Adjust as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 300px; 
+    height: auto; 
 }
 
 .footer {
@@ -65,4 +62,5 @@ header {
 
 #CopyRight {
     color: #6c757d;
+    font-size: 0.8em; 
 }
