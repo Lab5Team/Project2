@@ -7,6 +7,7 @@ header {
     background-color: #58f4ff;
     padding: 20px;
     text-align: center; 
+}
 
 #nav-bar {
     display: flex;
@@ -15,10 +16,6 @@ header {
     padding: 0;
     list-style-type: none;
     border-bottom: 1px solid #333;
-    height: 60px; 
-}
-
-#nav-bar li {
     display: inline;
     margin-right: 10px;
 }
@@ -29,7 +26,7 @@ header {
 
 #nav-bar a {
     text-decoration: none;
-    color: #007BFF;
+    color: #007BFF; 
 }
 
 #main {
@@ -46,8 +43,12 @@ header {
 }
 
 #main img {
-    width: 300px; 
-    height: auto; 
+    width: 300px;
+    height: 300px; 
+    object-fit: cover; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .footer {
