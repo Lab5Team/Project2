@@ -2,23 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Scholastic | Books for Students</title>
+    <title>Scholastic | Books for Students | Login</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="js/site.js" async></script>
   </head>
   <body>
     <header>
+	  <h1 id="headertext">The International Society for Universal Dialogue</h1>
 	  <nav id="nav-bar">
-	  <div id="nav-container">
-	    <ul>
-          <li id="highlight"><a href="homepage.html">Home</a></li>
-		  <li><a href="Library">Library</a></li>
-		  <li><a href="Login">Log In Info</a></li>
-		</ul>
-	  </div>
+	    <div id="nav-container">
+	      <ul>
+            <li><a href="index.html">Home</a></li>
+		    <li><a href="Library">Library</a></li>
+		    <li id="highlight"><a href="login.html">Log In Info</a></li>
+		  </ul>
+	    </div>
 	  </nav>
 	</header>
-	
+	<main>
+	  <h2></h2>
+	  <form method="get" action="#null" autocomplete="on" id="information-section">
+		<div id="usernamebox">
+		  <label for="username">Username or Email:</label>
+		  <input type="email" type="text" id="email" placeholder="example&#64scholastic.com" maxlength="32" required>
+		</div>
+		<div id="passwordbox">
+		  <label for="password">Password:</label>
+		  <input type="password" maxlength="30" id="myInput" placeholder="Enter Password" required>
+		</div>
+		<div id="loginbox">
+		  <input type="submit" name="submit" id="submit" value="Login">
+		</div>
+	  </form>
+	</main>
   </body>
  </html>
