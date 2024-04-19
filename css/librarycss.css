@@ -69,3 +69,20 @@ ul li {
     border-radius: 4px;
 }
 
+nav {
+    text-align: center;
+}
+
+/* Styling the links */
+nav a {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+
