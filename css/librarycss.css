@@ -21,7 +21,7 @@ header {
     font-size: 24px;
 }
 
-nav a {
+nav {
     text-decoration: none;
     color: red;
     margin: 0 15px;
